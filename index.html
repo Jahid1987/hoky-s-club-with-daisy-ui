@@ -31,6 +31,9 @@
                 .font-manrope{
                     font-family: 'Manrope', sans-serif;
                 }
+                .border{
+                  border: 2px solid black;
+                }
             </style>
 
     <!-- font awesome link  -->
@@ -38,7 +41,7 @@
     
     </head>
 <body class="font-manrope">
-    <header class="container mx-auto mt-12">
+    <header class="container md:container-md mx-auto mt-3 lg:mt-12 px-2">
 
         <!-- nav section  -->
         <div class="flex justify-between items-center navbar bg-base-100">
@@ -76,7 +79,69 @@
         </div>
 
         <!-- carousel section  -->
-        
+        <div class="carousel w-full  mt-5 lg:mt-12">
+          <div id="slide1" class="carousel-item relative w-full flex flex-col">
+                    
+            <div class="h-[200px] lg:h-[550px]">
+              <img src="Images/1.png" class="w-full" />
+            </div>
+            
+            <div class="flex gap-10 flex-col lg:flex-row items-center justify-between -translate-y-14 lg:-translate-y-72 lg:px-8">
+
+              <div class="flex gap-4">
+                <a href="#slide3" class="btn btn-sm lg:btn-lg btn-circle btn-outline bg-slate-900 text-white">❮</a> 
+              <a href="#slide2" class="btn btn-sm lg:btn-lg btn-circle bg-slate-900 text-white">❯</a>
+              </div>
+
+              <div class=" p-2 lg:p-8 space-y-4 rounded-2xl bg-slate-900 lg:w-6/12 h-[165px]">
+                <h1 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h1>
+                <p class="text-slate-400 text-base font-medium ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+            </div>
+
+          </div> 
+
+          <div id="slide2" class="carousel-item relative w-full flex flex-col">
+                    
+            <div class="h-[200px] lg:h-[550px]">
+              <img src="Images/1.png" class="w-full" />
+            </div>
+            
+            <div class="flex gap-10 flex-col lg:flex-row items-center justify-between -translate-y-14 lg:-translate-y-72 lg:px-8">
+
+              <div class="flex gap-4">
+                <a href="#slide1" class="btn btn-sm lg:btn-lg btn-circle bg-slate-900 text-white">❮</a> 
+              <a href="#slide3" class="btn btn-sm lg:btn-lg btn-circle bg-slate-900 text-white">❯</a>
+              </div>
+
+              <div class=" p-2 lg:p-8 space-y-4 rounded-2xl bg-slate-900 lg:w-6/12 h-[165px]">
+                <h1 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h1>
+                <p class="text-slate-400 text-base font-medium ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+            </div>
+
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full flex flex-col">
+                    
+            <div class="h-[200px] lg:h-[550px]">
+              <img src="Images/1.png" class="w-full" />
+            </div>
+            
+            <div class="flex gap-10 flex-col lg:flex-row items-center justify-between -translate-y-14 lg:-translate-y-72 lg:px-8">
+
+              <div class="flex gap-4">
+                <a href="#slide2" class="btn btn-sm lg:btn-lg btn-circle bg-slate-900 text-white">❮</a> 
+              <a href="#slide1" class="btn btn-sm lg:btn-lg btn-circle bg-slate-900 text-white">❯</a>
+              </div>
+
+              <div class=" p-2 lg:p-8 space-y-4 rounded-2xl bg-slate-900 lg:w-6/12 h-[165px]">
+                <h1 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h1>
+                <p class="text-slate-400 text-base font-medium ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+            </div>
+
+          </div> 
+        </div>
     </header>
     <main>
 
